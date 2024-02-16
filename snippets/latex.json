@@ -167,7 +167,7 @@
     },
     "itemize": {
         "prefix": "BIT",
-        "body": "\\begin{itemize}\n\t\\item ${0:${TM_SELECTED_TEXT}}\n\\end{itemize}",
+        "body": "\\begin{itemize}[leftmargin=*]\n\t\\item ${0:${TM_SELECTED_TEXT}}\n\\end{itemize}",
         "description": "itemize environment"
     },
     "enumerate": {
