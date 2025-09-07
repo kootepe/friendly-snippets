@@ -29,6 +29,10 @@
                 "path": "./snippets/c/cdoc.json"
             },
             {
+                "language": "typst",
+                "path": "./snippets/typst.json"
+            },
+            {
                 "language": "cpp",
                 "path": "./snippets/cpp/cpp.json"
             },

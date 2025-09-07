@@ -1,0 +1,12 @@
+{
+  "lb_typst": {
+    "prefix": "lb",
+    "body": ["#linebreak()"],
+    "description": "Typst linebreak shorthand"
+    },
+  "pb_typst": {
+    "prefix": "pb",
+    "body": ["#pagebreak()"],
+    "description": "Typst pagebreak shorthand"
+    }
+}
