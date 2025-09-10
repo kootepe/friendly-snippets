@@ -9,7 +9,7 @@
   "typst_pb": {
     "prefix": "pb",
     "body": [
-      "#pagebreak()"
+      "\n#pagebreak()"
     ],
     "description": "Typst pagebreak shorthand"
   },
@@ -36,8 +36,15 @@
   "typst_degree": {
     "prefix": "degree",
     "body": [
-      "#sym.degree"
+      "#sym.degree\\C"
     ],
     "description": "Typst degree shorthand"
+  },
+  "typst_figure": {
+    "prefix": "figure",
+    "body": [
+      "#figure(rect(image(\"$1.png\")), caption: [$2])<$3>"
+    ],
+    "description": "Image figure shorthand"
   }
 }
