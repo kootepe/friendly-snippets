@@ -1,37 +1,43 @@
 {
   "typst_lb": {
     "prefix": "lb",
-    "body": ["#linebreak()"],
+    "body": [
+      "#linebreak()"
+    ],
     "description": "Typst linebreak shorthand"
-    },
+  },
   "typst_pb": {
     "prefix": "pb",
-    "body": ["#pagebreak()"],
+    "body": [
+      "#pagebreak()"
+    ],
     "description": "Typst pagebreak shorthand"
-    },
+  },
   "typst_doc": {
     "prefix": "doc",
     "body": [
-    "#import \"@local/custom-conf:0.1.0\": *",
-    "#let docfont = \"IosevkaTerm Nerd Font\"",
-    "#set text(font: docfont)",
-    "#cover(",
-    "   title: \"$1\",",
-    "   institute: \"$2\",",
-    "   author: \"Eero Koskinen\",",
-    "   date: \"${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}\",",
-    "   font: docfont",
-    ")",
-    "// reduce list spacing",
-    "#set list(spacing: 0.7em)",
-    "// more space after title",
-    "#show heading: it => [ #it #v(0.8em) ]"
-  ],
+      "#import \"@local/custom-conf:0.1.0\": *",
+      "#let docfont = \"IosevkaTerm Nerd Font\"",
+      "#set text(font: docfont)",
+      "#cover(",
+      "   title: \"$1\",",
+      "   institute: \"$2\",",
+      "   author: \"Eero Koskinen\",",
+      "   date: \"${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}\",",
+      "   font: docfont",
+      ")",
+      "// reduce list spacing",
+      "#set list(spacing: 0.7em)",
+      "// more space after title",
+      "#show heading: it => [ #it #v(0.8em) ]"
+    ],
     "description": "Typst document preamble"
-},
+  },
   "typst_degree": {
     "prefix": "degree",
-    "body": ["#sym.degree"],
+    "body": [
+      "#sym.degree"
+    ],
     "description": "Typst degree shorthand"
-    }
+  }
 }
