@@ -32,10 +32,7 @@
       },
       {
         "language": "typst",
-        "path": [
-          "./snippets/typst.json",
-          "./snippets/typst.lua"
-        ]
+        "path": "./snippets/typst.json"
       },
       {
         "language": "cpp",
