@@ -53,5 +53,12 @@
       "#sym.arrow.r.long"
     ],
     "description": "Long arrow shorthand"
+  },
+  "typst_color": {
+    "prefix": "color",
+    "body": [
+      "#text(fill: $1, [${TM_SELECTED_TEXT}])"
+    ],
+    "description": "Shorthand for adding color to selected text"
   }
 }
